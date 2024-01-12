@@ -47,7 +47,9 @@ console.log(existeAlgumAlunoDeBackend)
 
 function filtraAlunosDeBackend(aluno) {
     return aluno.curso === 'Backend'
- }
+}
+
+const filtraAlunosDeBackend2 = (aluno) => aluno.curso === 'Backend'
 
 const alunosDeBackEnd = alunos2.filter(filtraAlunosDeBackend)
 
